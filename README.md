@@ -1,7 +1,8 @@
 # DataProcessing
 Processing steps for eddy covariance tower sites:
 
-This code follows the protocol. In r set your working directory to the location of the raw files. There should be nothing else in this folder. 
+This code follows the protocol. In r set your working directory to the location of the raw files. There should be nothing else in these directories (FIles: MET, TOA, TOB1, HOBO, .ghg). 
+
 ## Scripts to build MET files:
 
 1. Always run the timestamp script first. This file produces a timestamp that can be merged with the files to add a timestamp where data is mising. 
